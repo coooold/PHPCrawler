@@ -79,7 +79,7 @@ class PHPCrawler {
     }
 
     /**
-     * set up callbacks
+     * register callbacks
      *
      * @param string   $taskName event name response|drain
      * @param callable $cb
