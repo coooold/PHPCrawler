@@ -1,0 +1,33 @@
+{
+  "name": "coooold/crawler",
+  "description": "php crawler <-- node crawler",
+  "keywords": [
+    "crawler",
+    "spider"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "fang",
+      "email": "coooold@outlook.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "PHPCrawler\\": "src"
+    }
+  },
+  "require": {
+    "PHP": ">=7.0",
+    "ext-json": "*",
+    "amphp/amp": "^2.4",
+    "amphp/artax": "^3.0",
+    "symfony/dom-crawler": "^5.0",
+    "psr/log": "^1.0.1",
+    "symfony/css-selector": "^5.0"
+  },
+  "require-dev": {
+    "monolog/monolog": "^2.0"
+  }
+}
