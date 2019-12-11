@@ -3,7 +3,10 @@
   "description": "Most powerful, popular and production crawling/scraping package for PHP",
   "keywords": [
     "crawler",
-    "spider"
+    "spider",
+    "node-crawler",
+    "amp",
+    "coroutine"
   ],
   "type": "library",
   "license": "MIT",
